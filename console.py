@@ -21,6 +21,8 @@ class Console:
                 else:
                     print("Incorrect. Choose a number between 1000 and 9999")
         return x
+    def displayWinner(self, name):
+        print(f"{name} won!")
     
     
         
