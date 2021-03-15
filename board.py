@@ -24,7 +24,7 @@ class Board:
     def toString(self, players):
         boardString = "--------------------\n"
         for player in players:
-            boardString += f"Player {player.getName()}: {str(player.getLastGuess())}, {self._getHintString(player.getLastGuess())}\n"
+            boardString += f"Player {player.getPlayerName()}: {str(player.getLastGuess())}, {self._getHintString(player.getLastGuess())}\n"
         boardString += "--------------------\n"
         return boardString
         
